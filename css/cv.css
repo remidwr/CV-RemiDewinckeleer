@@ -1,0 +1,22 @@
+.bg-blue {
+    background-color: #1da1f2;
+}
+.img-size {
+    width: 180px;
+}
+.font-color-wh {
+    color: white;
+}
+.logo-size {
+    width: 24px;
+    height: 24px;
+}
+.no-bullet {
+    list-style: none;
+}
+#langues > div > ul > li > span {
+    font-weight: bold;
+}
+#contact > div > ul > li > span {
+    font-weight: bold;
+}
