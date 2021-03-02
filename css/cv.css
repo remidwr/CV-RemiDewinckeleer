@@ -14,6 +14,9 @@
 .no-bullet {
     list-style: none;
 }
+.bullet-type {
+    list-style-type: circle;
+}
 #langues > div > ul > li > span {
     font-weight: bold;
 }
