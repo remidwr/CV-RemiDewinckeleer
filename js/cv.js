@@ -1,19 +1,11 @@
-$("#second-header").hide();
+var width = 992;
 
-var height = 120;
-
-$(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > height && $(window).width() < 768) {
-            $("#main-header").hide();
-            $("#second-header").show();
-            $("#profil1").hide();
-            $("#profil2").show();
-        } else {
-            $("#second-header").hide();
-            $("#main-header").show();
-            $("#profil2").hide();
-            $("#profil1").show();
-        }
-    });
+$(window).resize(() => {
+    if ($(this).width() < width) {
+        $("#profil1").hide();
+        $("#profil2").show();
+    } else {
+        $("#profil2").hide();
+        $("#profil1").show();
+    }
 });
